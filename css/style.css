@@ -110,6 +110,7 @@ nav {
 
 .column {
     float: left;
+    color: slategrey;
 }
 
 .column.one, .column.three {
@@ -121,10 +122,30 @@ nav {
     margin: 0 1%;
 }
 
+.image {
+    background-size: cover;
+}
+
+.side.image {
+   width: 100%;
+   height: 150px;
+   background-image: url("./img/img-1.jpg");
+}
+
+
+.small-title {
+    color: black;
+}
+
 /* footer */
 
 .last-part {
     margin: auto;
     margin-top: 20px;
     text-align: center;
+}
+
+.heart {
+    font-size: 20px;
+    color: red;
 }
