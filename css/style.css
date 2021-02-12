@@ -46,6 +46,7 @@ nav {
 .main-menu li {
    display: inline-block;
    margin-right: 15px;
+   color: slategrey;
 }
 
 .main-menu li:last-child {
@@ -62,7 +63,6 @@ nav {
     width: 1100px;
     height: 450px;
     position: relative;
-    padding-bottom: 20px;
     background-image: url("../img/banner.jpg");
     background-size: cover;
     background-position: center;
@@ -95,8 +95,7 @@ nav {
    width: 1100px;
    height: 80px;
    margin-bottom: 10px;
-   background-color: #6495ED;
-}
+   }
 
 
 /*Columns */
