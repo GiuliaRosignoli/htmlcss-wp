@@ -46,21 +46,21 @@ nav {
 .main-menu li {
    display: inline-block;
    margin-right: 15px;
-   color: slategrey;
+   
 }
 
-.main-menu li:last-child {
+.main-menu li:last-child a {
     color: rgb(139, 48, 101);
     margin-right: 10px;
 }
 
 .main-menu li a {
     text-decoration: none;
+    color: slategrey;
     
 }
 
 .background {
-    width: 1100px;
     height: 450px;
     position: relative;
     background-image: url("../img/banner.jpg");
