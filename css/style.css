@@ -33,27 +33,42 @@
 /*second container*/
 
 .container.second {
-    height: 220px;
+    height: 450px;
     margin-bottom: 20px;
+}
+
+nav {
+    padding-bottom: 20px;
 }
 
 
 .main-menu li {
    display: inline-block;
    margin-right: 15px;
-   list-style: none;
-   text-decoration: none;
 }
 
 .main-menu li:last-child {
-    color: red;
+    color: rgb(139, 48, 101);
     margin-right: 10px;
+}
+
+.main-menu li a {
+    text-decoration: none;
+    
 }
 
 .banner {
     width: 1100px;
-    height: 200px;
-    padding: 10px;
+    height: 450px;
+    background-image: url("../img/banner.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.layover {
+    width: 1100px;
+    height: 450px;
+    background-color: rgba(0,0,0,0.9);
 }
 
 /*third container + columns */
