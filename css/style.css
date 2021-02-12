@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
 }
 
 /* UTILITIES */
@@ -61,6 +62,7 @@ nav {
     width: 1100px;
     height: 450px;
     position: relative;
+    padding-bottom: 20px;
     background-image: url("../img/banner.jpg");
     background-size: cover;
     background-position: center;
@@ -77,6 +79,7 @@ nav {
    position: absolute;
    left: 28px;
    bottom: 40px;
+   color: seashell;
 }
 
 
