@@ -20,11 +20,16 @@
     margin-top: 20px;   
 }
  
-/*first container */
-.container.first {
-    height: 80px;
+/*first container */ 
+
+/* .container.first {
     background-color: #FF69B4;
-}
+} */
+
+ .logo {
+    width: 100px;
+    height: 50px;
+ }
 
 
 /*second container*/
