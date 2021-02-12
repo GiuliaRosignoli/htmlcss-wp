@@ -34,12 +34,13 @@
 /*second container*/
 
 .container.second {
-    height: 450px;
     margin-bottom: 20px;
+    margin-top: 0;
 }
 
 nav {
-    padding-bottom: 20px;
+    padding-top: 20px;
+    padding-bottom: 40px;
 }
 
 
@@ -50,9 +51,9 @@ nav {
 }
 
 .main-menu li:last-child a {
-    color: rgb(139, 48, 101);
     margin-right: 10px;
 }
+
 
 .main-menu li a {
     text-decoration: none;
@@ -86,29 +87,29 @@ nav {
 /*third container + columns */
 
 .container.third {
-    height: 320px;
     margin: 0 auto;
-    background-color: #1E90FF;
-}
+  }
 
 .first-section {
    width: 1100px;
-   height: 80px;
    margin-bottom: 10px;
+   background-color: snow;
+   }
+
+
+   .subtitle {
+     color: slategrey;
    }
 
 
 /*Columns */
 
 .columns {
-    height: 220px;
     margin-bottom: 10px;
    }
 
 .column {
-    height: 100%;
     float: left;
-    background-color: #6495ED;
 }
 
 .column.one, .column.three {
@@ -123,9 +124,7 @@ nav {
 /* footer */
 
 .last-part {
-    width: 1100px;
-    height: 40px;
     margin: auto;
-    margin-top: 10px;
-    background-color: #9400D3;
+    margin-top: 20px;
+    text-align: center;
 }
