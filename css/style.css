@@ -60,6 +60,7 @@ nav {
 .background {
     width: 1100px;
     height: 450px;
+    position: relative;
     background-image: url("../img/banner.jpg");
     background-size: cover;
     background-position: center;
@@ -72,7 +73,10 @@ nav {
 }
 
 .main-text {
-
+   width: 500px;
+   position: absolute;
+   left: 28px;
+   bottom: 40px;
 }
 
 
