@@ -38,15 +38,18 @@
     background-color: #F0E68C;
 }
 
-.main-menu {
-
-}
 
 .main-menu li {
    display: inline-block;
+   margin-right: 15px;
    list-style: none;
+   text-decoration: none;
 }
 
+.main-menu li:last-child {
+    color: red;
+    margin-right: 10px;
+}
 
 /*third container + columns */
 
