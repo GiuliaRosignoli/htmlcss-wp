@@ -45,17 +45,28 @@
     top:20px
 }
 
+.fab {
+    font-size: 45px;
+    color: #2F4F4F;
+}
+
+.fab a:visited {
+  background-color: palevioletred;
+}
+
 .fab.fa-facebook-square:hover {
-   color: tomato;
-   font-size: 45px;
+   color: rgb(19, 49, 185);
 }
 
  .fab.fa-twitter-square:hover {
     color: teal;
-    font-size: 45px;
  }
 
+ .fab.fa-youtube-square:hover {
+   color: red;
+ }
 
+ 
  header .brand {
     width: 164px;
  }
