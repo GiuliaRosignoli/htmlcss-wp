@@ -32,10 +32,34 @@
  
 /*first container */ 
 
+.first.container {
+   position: relative
+}
+
+
+.social-profiles {
+    display: inline-block;
+    position: absolute;
+    font-size: 35px;
+    right: 20px;
+    top:20px
+}
+
+.fab.fa-facebook-square:hover {
+   color: tomato;
+   font-size: 45px;
+}
+
+ .fab.fa-twitter-square:hover {
+    color: teal;
+    font-size: 45px;
+ }
+
 
  header .brand {
     width: 164px;
  }
+
 
 
 /*second container, nav, background*/
