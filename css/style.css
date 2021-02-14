@@ -188,6 +188,7 @@ nav {
 }
 
 .side.image.one {
+   padding-right: 10px;
    background-image: url("../img/img-1.jpg");
 }
 
@@ -197,6 +198,7 @@ nav {
 }
 
 .side.image.two {
+    padding-left: 10px;
     background-image: url("../img/img-3.jpg");
 }
 
