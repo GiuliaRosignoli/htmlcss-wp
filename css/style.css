@@ -46,6 +46,7 @@
     top:20px
 }
 
+
 .fab {
     font-size: 45px;
     color: #2F4F4F;
@@ -80,8 +81,8 @@
 }
 
 nav {
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 30px;
+    padding-bottom: 25px;
 }
 
 
@@ -100,6 +101,11 @@ nav {
     text-decoration: none;
     color: slategrey;  
 }
+
+.main-menu li:hover a {
+    color: #1E90FF;
+}
+
 
 
 .background {
@@ -195,8 +201,9 @@ nav {
 /* footer */
 
 .last-part {
+    padding-bottom: 30px;
     margin: auto;
-    margin-top: 20px;
+    margin-top: 25px;
     text-align: center;
 }
 
