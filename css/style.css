@@ -8,13 +8,12 @@
     font-weight: 300;
 }
 
-    h1,
-    h2,
-    h3 {
-       font-weight: 600;
-    }
-    
+h1,
+h2,
+h3 {
+    font-weight: 600;
 }
+    
 
 /* UTILITIES */
 
@@ -209,11 +208,6 @@ nav {
 }
 
 /* footer */
-
- .fourth.container{
-   float: right;
-   width: 100%;
-} 
 
 .last-part {
     margin-top: 10px;
